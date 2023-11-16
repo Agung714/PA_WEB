@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.create-skin{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    height: 100%;
+    margin-top: 5rem;
+    border: 2px solid black;
+}
+
+.create-skin form{
+    display: block;
+    position: relative;
+    margin-top: 5rem;
+    margin-left: -10rem;
+    width: 9.5rem;
+}
+
+input{
+    margin-bottom: 0.8rem;
+    margin-top: 0.2rem;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:wght@400;500;700&family=Onest:wght@300;500;700&display=swap');
+
+:root{
+    --navbar: #30E3CA;
+    --hover: #11999e;
+    --background: #E4F9F5;
+    --font: #40514E;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+body{
+    background-color: var(--font);
+}
+
+label{
+    display: block;
+}
+
+.container-form{
+    margin-top: -2rem;
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--navbar);
+    font-size: 18px;
+}
+
+form {
+    width: 450px;
+    border: 2px solid var(--navbar);
+    margin-top: 2rem;
+    list-style-type: none;
+    border-radius: 10%;
+    background-color: var(--background);
+    box-shadow: rgba(17, 153, 158, 0.4) -5px 5px, rgba(17, 153, 158, 0.4) -10px 10px, rgba(17, 153, 158, 0.4) -15px 15px, rgba(17, 153, 158, 0.4) -20px 20px, rgba(17, 153, 158, 0.5) -25px 25px;
+}
+
+ul{
+    margin-right: 2rem;
+}
+
+li{
+    margin-bottom: 1rem;
+}
+
+input[type=text],
+input[type=password],
+input[type=date],
+input[type=email]{
+    width: 14rem;
+    height: 1.3rem;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+button{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button:hover{
+    color: white;
+    background-color: red;
+    transition: 0.5s ease-out;
+}
+
+.icon {
+    width: 18px;
+    margin-right: 0.3rem;
+}
